@@ -1,0 +1,178 @@
+body{
+    background-image: url("7b8b2c5e-2b84-42e0-b322-7184a6dbc7f8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;  
+}
+
+#cover{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;  
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+a{
+    color: inherit;
+}
+
+#menu{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.9%;
+    height: 40px;
+    background-color: #39FF14;
+    font-family: 'Poppins', sans-serif;
+}
+
+#name{
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1.5rem;
+}
+
+#pricing{
+    position: absolute;
+    right: 5px;
+    top: -18px;
+}
+
+#works{
+    position: absolute;
+    right: 130px;
+    top: -18px;
+}
+
+#career{
+    position: absolute;
+    right: 245px;
+    top: -18px;
+}
+
+#name:hover,#pricing:hover,#works:hover,#career:hover{
+    color: #FF1493;
+    
+}
+
+span{
+    color: #FF1493;
+}
+
+#career_text{
+    font-family: 'VT323', monospace;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 18px;
+    width: 820px;
+    height: 490px;
+    border: solid;
+    border-color: #39FF14;
+    color: #39FF14;
+    font-size: 1.4rem;
+}
+
+#contacts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    width: 275px;
+    height: 50px;
+    background-color: #39FF14;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 2;
+}
+
+#instagram, #twitter, #tiktok, #youtube{
+    transform: scale(2);
+}
+
+#youtube:hover{
+    color: red;
+}
+
+#twitter:hover{
+    color: #1DA1F2;
+}
+
+#instagram:hover{
+    color: #C13584;
+    
+}
+
+#tiktok:hover{
+    color:#A27EA8;
+}
+
+@media (max-width: 870px) {
+    #pricing,#works,#career{
+        font-size: 1rem;
+        top: -5px;
+    }
+    #works{
+        right: 72px;
+    }
+    #career{
+        right: 135px;
+    }
+    #name{
+        font-size: 1.1rem;
+    }
+    #menu{
+        height: 25px;
+    }
+}
+
+@media (max-width: 841px) {
+    #career_text{
+        width: 600px;
+        font-size: 1.18rem;
+    }
+}
+
+@media (max-width: 621px) {
+    #career_text{
+        width: 400px;
+        font-size: 0.9768rem;
+    }
+    #contacts{
+        width: 200px;
+        height: 40px;
+    }
+    #instagram, #twitter, #tiktok, #youtube{
+        transform: scale(1.5);
+    }
+}
+
+@media (max-width: 570px) {
+    #pricing,#works,#career{
+        font-size: 0.8rem;
+    }
+    #works{
+        right: 65px;
+    }
+    #career{
+        right: 120px;
+    }
+    #name{
+        font-size: 0.8rem;
+    }
+    #menu{
+        height: 20px;
+    }
+}
