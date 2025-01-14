@@ -250,7 +250,7 @@ span{
         width: 300px;
     }
     .image{
-        transform: scale(0.5) translateX(-90%);
+        transform: scale(0.5) translateX(-95%);
     }
     .textbox{
         width: 300px;
@@ -264,5 +264,155 @@ span{
     }
     #tvbasketball_box{
         top: 1550px;
+    }
+}
+
+@media (max-width: 450px) {
+    #pricing,#works,#career{
+        font-size: 0.5rem;
+        top: 0px;
+    }
+    #works{
+        right: 40px;
+    }
+    #career{
+        right: 75px;
+    }
+    #name{
+        top: 0px;
+        font-size: 0.5rem;
+    }
+    #menu{
+        height: 15px;
+    }
+}
+
+@media (max-width: 345px) {
+    body{
+        height: 1400px;
+    }
+    .box{
+        width: 200px;
+    }
+    .image{
+        transform: scale(0.4) translateX(-117%);
+    }
+    .textbox{
+        width: 200px;
+    }
+    #skyfighter_textbox{
+        height: 410px;
+    }
+    #soccer_textbox{
+        height: 335px;
+    }
+    #tvbasketball_textbox{
+        height: 240px;
+    }
+    #skyfighter_text{
+        font-size: 1.3rem;
+        top: 30px;
+    }
+    #soccer_text{
+        font-size: 1.3rem;
+        top: 20px;
+    }
+    #tvbasketball_text{
+        font-size: 1.3rem;
+        top: 20px;
+    }
+    #skyfighter_box{
+        top: 70px;
+    }
+    #soccer_box{
+        top: 600px;
+    }
+    #tvbasketball_box{
+        top: 1050px;
+    }
+}
+
+@media (max-width: 300px) {
+    #pricing,#works,#career{
+        font-size: 0.45rem;
+        top: -2px;
+    }
+    #works{
+        right: 35px;
+    }
+    #career{
+        right: 65px;
+    }
+    #name{
+        top: 0px;
+        font-size: 0.45rem;
+    }
+    #menu{
+        height: 12px;
+    }
+}
+
+@media (max-width: 245px) {
+    #pricing,#works,#career{
+        font-size: 0.4rem;
+        top: 0px;
+    }
+    #works{
+        right: 30px;
+    }
+    #career{
+        right: 55px;
+    }
+    #name{
+        top: 1px;
+        font-size: 0.4rem;
+    }
+    #menu{
+        height: 12px;
+    }
+}
+
+@media (max-width: 242px) {
+    body{
+        height: 1400px;
+    }
+    .box{
+        width: 150px;
+    }
+    .image{
+        transform: scale(0.3) translateX(-155%);
+    }
+    .textbox{
+        width: 150px;
+    }
+    #skyfighter_textbox{
+        height: 420px;
+    }
+    #soccer_textbox{
+        height: 335px;
+    }
+    #tvbasketball_textbox{
+        height: 235px;
+    }
+    #skyfighter_text{
+        font-size: 1.1rem;
+        top: 20px;
+    }
+    #soccer_text{
+        font-size: 1.1rem;
+        top: 15px;
+    }
+    #tvbasketball_text{
+        font-size: 1.1rem;
+        top: 15px;
+    }
+    #skyfighter_box{
+        top: 70px;
+    }
+    #soccer_box{
+        top: 600px;
+    }
+    #tvbasketball_box{
+        top: 1050px;
     }
 }
